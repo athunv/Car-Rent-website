@@ -1,0 +1,87 @@
+.customer-car-view {
+  padding: 50px;
+  background-color: #000;
+  color: #fff;
+  min-height: 100vh; 
+}
+
+.error-message {
+  color: red;
+}
+
+.success-message {
+  color: green;
+}
+
+.car-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.car-card {
+  position: relative;
+  border: 1px solid #333;
+  border-radius: 8px;
+  width: 48%; /* Adjusted width for two cards per row */
+  background-color: #222;
+  overflow: hidden;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.car-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+.car-card-content {
+  display: flex;
+}
+
+.car-details {
+  width: 60%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.car-image-container {
+  width: 40%;
+}
+
+.car-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.order-button {
+  margin-top: 10px;
+  background-color: #f2952a; 
+  border-color: #f6aa27;
+}
+
+.order-button:hover {
+  background-color: #f1820b;
+  border-color: #f8d305;
+}
+
+.back-to-home {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.back-to-home-button {
+  margin-bottom: 20px;
+}
+
+.car-name {
+  margin-bottom: 10px;
+}
+
+.car-price,
+.car-model,
+.car-description {
+  margin-bottom: 5px;
+}

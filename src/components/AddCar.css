@@ -1,0 +1,108 @@
+
+.add-car-container {
+  background-color: #121212;
+  color: #e0e0e0; 
+  padding: 20px;
+  border-radius: 8px;
+  border:1px solid rgb(255, 0, 234)
+
+}
+
+.add-car-card {
+  background-color: black; 
+  border: 1px solid #333; 
+  border-radius: 8px;
+  border-bottom: 2px solid rgb(51, 0, 255);
+  
+}
+
+.card-title{
+ 
+  text-align: center;
+  
+}
+.add-car-card{
+  background-color: black;
+}
+.add-car-card-header {
+  background-color: black;  
+  border-bottom: 2px solid rgb(51, 0, 255);
+}
+:root {
+  --bs-body-bg: #000000; 
+}
+.add-car-card-body {
+  padding: 20px;
+  background-color: black;
+}
+
+
+.add-car-form-control {
+  background-color: #222; 
+  color: white; 
+  border: 1px solid  rgb(51, 0, 255); 
+  border-radius: 4px;
+  padding: 10px; 
+  height: auto; 
+}
+
+.add-car-form-control::placeholder {
+  color: #888; 
+}
+
+
+.form-floating > .form-control {
+  background-color: #222; 
+  border-radius: 4px;
+  color: white; 
+}
+
+.form-floating > .form-control:focus {
+  background-color: #333; 
+  border-color: rgb(51, 0, 255); 
+  box-shadow: none; 
+}
+
+.form-floating > label {
+  color: #aaa; 
+  padding-left: 10px;
+  transition: color 0.3s ease; 
+}
+
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label {
+  color: #e0e0e0;
+  transform: scale(0.85) translateY(-1.5em);
+}
+
+
+.add-car-button-submit {
+  background-color: #28a745;
+  color: white; 
+  border: none;
+  border-radius: 4px; 
+  padding: 10px 20px; 
+}
+
+.add-car-button-submit:hover {
+  background-color: #218838; 
+}
+
+.add-car-button-cancel {
+  background-color: #6c757d; 
+  color: white; 
+  border: none;
+  border-radius: 4px; 
+  padding: 10px 20px;
+   
+}
+
+.add-car-button-cancel:hover {
+  background-color: #5a6268;
+}
+
+
+.add-car-button-submit:hover,
+.add-car-button-cancel:hover {
+  opacity: 0.8; 
+}

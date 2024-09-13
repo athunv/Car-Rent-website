@@ -1,0 +1,69 @@
+.navbar-container {
+  background-color: #ffffff; /* White background for the navbar */
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  margin-left: auto; /* Moves the logo to the center/right */
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Spacing between the links */
+}
+
+.navbar-nav .nav-link-animation {
+  position: relative;
+  font-size: 16px;
+  color: #000; /* Black text for links */
+  text-transform: uppercase;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link-animation:hover {
+  color: #007bff; /* Blue color on hover */
+}
+
+.navbar-nav .nav-link-animation::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #007bff; /* Blue underline on hover */
+  left: 0;
+  bottom: -5px;
+  transition: width 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link-animation:hover::after {
+  width: 100%;
+}
+
+.navbar-nav .auth-links {
+  margin-right: auto; /* Moves the login/logout links to the left side */
+}
+
+.navbar-nav .main-links {
+  margin-left: 100px; /* Adds space between the logo and the main links */
+}
+
+.navbar-toggle {
+  border-color: transparent;
+}
+
+.logo-animation {
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo-animation:hover {
+  transform: scale(1.1); /* Slight zoom on logo hover */
+}
+
+.toggle-animation {
+  transition: transform 0.3s ease-in-out;
+}
+
+.toggle-animation:hover {
+  transform: rotate(90deg); /* Rotate the toggle icon on hover */
+}

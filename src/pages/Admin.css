@@ -1,0 +1,51 @@
+.admin-container {
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
+
+.admin-aside {
+  background-color: #333;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 2px solid rgb(63, 0, 236);
+}
+
+body {
+  background-color: black;
+}
+
+.admin-main {
+  flex: 1;
+  padding: 20px;
+  background-color: #222;
+  color: white;
+}
+
+.admin-aside button {
+  background: none;
+  border: none;
+  color: white;
+  text-align: left;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  margin-bottom: 10px; /* Add space between buttons */
+}
+
+.admin-aside button:hover {
+  color: lightgray; /* Change hover color for better visibility */
+}
+
+.admin-aside button:focus {
+  outline: none; 
+}
+
+/* Add specific style for the last button to remove bottom margin */
+.admin-aside button:last-child {
+  margin-bottom: 0;
+}

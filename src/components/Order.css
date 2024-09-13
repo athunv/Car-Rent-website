@@ -1,0 +1,28 @@
+.order-page {
+    background-image: url('/images/car3.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: white;
+    height: 100vh;
+  }
+  
+  .order-form {
+    background: rgba(0, 0, 0, 0.7); 
+    padding: 20px;
+    border:1px solid orange;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  #order-details-modal .modal-content {
+    background-color: #333;
+    color: white;
+  }
+  
+  #order-details-modal h2 {
+    color: blue;
+  }
+  
